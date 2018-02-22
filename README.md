@@ -15,3 +15,22 @@ pwd										= mostrar o path
 cat 									= le o arquivo
 
 start nome_do_arquivo					= executa
+
+comandos git:
+git config --global http.proxy http://10.1.118.254:3128  = configura o proxy do senai
+
+git init
+git status
+git add
+git commit -m "mensagem"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git remote add origin https://github.com/GilmarBec/Comandos_Basicos.git
+git push -u origin master
+git show nome_do_arquivo
+git diff
+git log
+
+Omit --global to set the identity only in this repository.
+
+//ninguem se apega
