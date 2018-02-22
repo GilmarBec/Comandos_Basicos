@@ -34,6 +34,8 @@ git diff
 git log
 git clone url
 git stash
+git merge
+git branch -D nome_da_branch = apaga branch
 
 git branch = listagem de branchs
 git checkout -B nome_da_brench = cria uma nova branch e entra nela
