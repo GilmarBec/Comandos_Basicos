@@ -27,12 +27,17 @@ git commit -m "mensagem"
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git remote add origin https://github.com/GilmarBec/Comandos_Basicos.git
-git push -u origin master
+git push origin master
+git pull
 git show nome_do_arquivo
 git diff
 git log
+git clone url
+git stash
+
+git branch = listagem de branchs
+git checkout -B nome_da_brench = cria uma nova branch e entra nela
 
 Omit --global to set the identity only in this repository.
 
 //ninguem se apega
-start nome_do_arquivo					            = executa
